@@ -1,0 +1,8 @@
+#4- Faça um programa que leia um vetor de 5 números inteiros e mostre-os.
+
+v=[]
+
+for i in range(5):
+    vetor=float(input("Digite o valor de um número :"))
+    v.append(vetor)
+print(v)
